@@ -37,3 +37,64 @@
     color: black;
     transition: .80s;
 }
+.donation-sector{
+    margin-top: 50px;
+}
+.donation-heading{
+    text-align: center;
+}
+.donation-title{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+.donation-text{
+    margin-top: 15px;
+}
+.amount-tk{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 40px 150px 0px 150px;
+
+   
+   
+}
+.card-taka{
+    height: 100px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+.card-taka p{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+#tk{
+    color: tomato;
+    background-color:rgba(255, 99, 71, 0.208);
+}
+.placeholder-btn{
+    text-align: center;
+}
+.donation-placeholder{
+    margin-top: 40px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 800px;
+    outline: none;
+    border-style: none;
+    border-bottom: 1px solid grey;
+}
+::placeholder{
+    text-align: center;
+    font-size: 18px;
+   
+}
+.donation-btn{
+    margin-top: 25px;
+}
