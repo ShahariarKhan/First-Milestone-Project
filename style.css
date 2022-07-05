@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* bannar sector */
 .bannar{
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -37,6 +38,8 @@
     color: black;
     transition: .80s;
 }
+
+/* this is donation sector */
 .donation-sector{
     margin-top: 50px;
 }
