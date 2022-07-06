@@ -20,9 +20,9 @@
 }
 .bannar-text{
     margin: 30px;
-    color: rgb(157, 255, 0);
+    color: white;
     font-size: 20px;
-    font-weight: bold;
+    
 }
 .bannar-btn{
     padding: 15px 30px;
@@ -52,6 +52,7 @@
 }
 .donation-text{
     margin-top: 15px;
+    font-size: 20px;
 }
 .amount-tk{
     display: flex;
@@ -100,4 +101,44 @@ input{
 }
 .donation-btn{
     margin-top: 25px;
+}
+/* donate plan */
+.donate-sector{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donate-plan{
+    margin-top: 80px;
+}
+.main-plan{
+    text-align: center;
+    margin: 50px;
+}
+.for-food{
+    height: 250px;
+    width: 300px;
+    padding: 25px;
+    text-align: left;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+
+}
+h3{
+    margin-top: 10px;
+}
+.donate-about{
+    margin-top: 20px;
+}
+#food{
+    background-color:rgba(56, 154, 140, 0.04) ;
+
+}
+#shelter{
+    background-color:rgba(245, 39, 145, 0.03);
+
+}
+#frame{
+    background-color:rgba(171, 167, 79, 0.06) ;
+
 }
