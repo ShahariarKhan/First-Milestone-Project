@@ -142,3 +142,45 @@ h3{
     background-color:rgba(171, 167, 79, 0.06) ;
 
 }
+/* footer */
+.footer{
+    margin-top: 150px;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-items{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.footer-items li{
+    margin: 10px;
+    list-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.footer-items li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-items li a:hover{
+    color: red;
+}
+.logo{
+    margin-top: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.footer-text{
+    margin-top: 150px;
+    margin-right: 15px;
+    
+}
